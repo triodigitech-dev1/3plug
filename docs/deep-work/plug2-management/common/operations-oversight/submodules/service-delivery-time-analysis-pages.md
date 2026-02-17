@@ -1,0 +1,45 @@
+﻿# Service delivery time analysis: Detailed Page Blueprint (Expanded)
+
+## Context
+- Plug: Management
+- Module: Operations Oversight
+- Route base: management/operations-oversight/service-delivery-time-analysis
+
+## Submodule Dashboard
+- Route: management/operations-oversight/service-delivery-time-analysis/dashboard
+- Purpose: track health, workload, and control quality.
+
+### Dashboard Sections
+- Snapshot KPIs (processed/pending/exceptions/SLA)
+- Action panel (new/update/submit/approve)
+- Risk panel (validation failures/escalations/retries)
+
+## Page Set
+- management/operations-oversight/service-delivery-time-analysis/list
+- management/operations-oversight/service-delivery-time-analysis/create
+- management/operations-oversight/service-delivery-time-analysis/detail/:id
+- management/operations-oversight/service-delivery-time-analysis/edit/:id
+- management/operations-oversight/service-delivery-time-analysis/submit/:id
+- management/operations-oversight/service-delivery-time-analysis/approvals
+- management/operations-oversight/service-delivery-time-analysis/reports
+- management/operations-oversight/service-delivery-time-analysis/analytics
+
+## Reporting Explained
+- Daily operational summary
+- Branch/user performance
+- Exception and audit report
+
+## Analytics Explained
+- Throughput and cycle-time trends
+- Error/failure trend
+- Forecast and anomaly markers
+
+## UX + Accessibility
+- Clear hierarchy and status cues
+- Large action targets
+- Keyboard-friendly paths
+
+## Security + Audit
+- RBAC on all writes
+- Approval for sensitive transitions
+- Immutable audit records

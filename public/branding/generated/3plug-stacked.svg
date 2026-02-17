@@ -1,0 +1,32 @@
+<svg width="740" height="840" viewBox="0 0 740 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="plugGradS" x1="86" y1="78" x2="448" y2="468" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#155874"/>
+      <stop offset="0.32" stop-color="#246F89"/>
+      <stop offset="0.58" stop-color="#317F90"/>
+      <stop offset="0.82" stop-color="#479095"/>
+      <stop offset="1" stop-color="#60A298"/>
+    </linearGradient>
+    <linearGradient id="lineGradS" x1="130" y1="198" x2="412" y2="374" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A298"/>
+      <stop offset="1" stop-color="#155874"/>
+    </linearGradient>
+  </defs>
+  <rect x="46" y="40" width="466" height="466" rx="108" fill="#0C2330"/>
+  <path d="M182 182L280 280L378 182" stroke="url(#lineGradS)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M182 378L280 280L378 378" stroke="url(#lineGradS)" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="182" cy="182" r="68" fill="url(#plugGradS)"/>
+  <circle cx="378" cy="182" r="68" fill="url(#plugGradS)"/>
+  <circle cx="280" cy="378" r="68" fill="url(#plugGradS)"/>
+  <g fill="#F2FCFF">
+    <rect x="160" y="122" width="12" height="24" rx="4"/>
+    <rect x="190" y="122" width="12" height="24" rx="4"/>
+    <rect x="356" y="122" width="12" height="24" rx="4"/>
+    <rect x="386" y="122" width="12" height="24" rx="4"/>
+    <rect x="258" y="318" width="12" height="24" rx="4"/>
+    <rect x="288" y="318" width="12" height="24" rx="4"/>
+  </g>
+  <text x="44" y="628" fill="#155874" font-size="112" font-weight="800" font-family="Segoe UI, Verdana, sans-serif">3Plug</text>
+  <text x="44" y="728" fill="#317F90" font-size="112" font-weight="500" font-family="Segoe UI, Verdana, sans-serif">POS</text>
+  <text x="48" y="782" fill="#246F89" font-size="30" font-weight="600" letter-spacing="1.3" font-family="Segoe UI, Verdana, sans-serif">Operations | Management | Administration</text>
+</svg>

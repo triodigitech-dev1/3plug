@@ -1,0 +1,32 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="plugGradH" x1="24" y1="22" x2="248" y2="254" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#155874"/>
+      <stop offset="0.32" stop-color="#246F89"/>
+      <stop offset="0.58" stop-color="#317F90"/>
+      <stop offset="0.82" stop-color="#479095"/>
+      <stop offset="1" stop-color="#60A298"/>
+    </linearGradient>
+    <linearGradient id="lineGradH" x1="62" y1="84" x2="210" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A298"/>
+      <stop offset="1" stop-color="#155874"/>
+    </linearGradient>
+  </defs>
+  <rect x="14" y="14" width="244" height="244" rx="56" fill="#0C2330"/>
+  <path d="M90 90L136 136L182 90" stroke="url(#lineGradH)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M90 182L136 136L182 182" stroke="url(#lineGradH)" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="90" cy="90" r="34" fill="url(#plugGradH)"/>
+  <circle cx="182" cy="90" r="34" fill="url(#plugGradH)"/>
+  <circle cx="136" cy="182" r="34" fill="url(#plugGradH)"/>
+  <g fill="#F2FCFF">
+    <rect x="80" y="60" width="7" height="14" rx="2"/>
+    <rect x="95" y="60" width="7" height="14" rx="2"/>
+    <rect x="172" y="60" width="7" height="14" rx="2"/>
+    <rect x="187" y="60" width="7" height="14" rx="2"/>
+    <rect x="126" y="153" width="7" height="14" rx="2"/>
+    <rect x="141" y="153" width="7" height="14" rx="2"/>
+  </g>
+  <text x="300" y="140" fill="#155874" font-size="86" font-weight="800" font-family="Segoe UI, Verdana, sans-serif">3Plug</text>
+  <text x="300" y="218" fill="#317F90" font-size="86" font-weight="500" font-family="Segoe UI, Verdana, sans-serif">POS</text>
+  <text x="302" y="270" fill="#246F89" font-size="28" font-weight="600" letter-spacing="1.6" font-family="Segoe UI, Verdana, sans-serif">Offline-First Business Core</text>
+</svg>
